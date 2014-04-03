@@ -2,14 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea57bdb7-e9c2-4857-a482-d8679eba3441" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/turning.core.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fe-widgets.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396169954723" ignored="false" />
+    <file path="/Dummy.txt" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396363086085" ignored="false" />
     <file path="/popup.ts" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396170049755" ignored="false" />
     <file path="/README" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396171956997" ignored="false" />
+    <file path="$PROJECT_DIR$/../testftp/upload/static/special/MOV2014/css/sh_mov.css" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396235052495" ignored="false" />
+    <file path="$USER_HOME$/site/tv/js/dict.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396235628998" ignored="false" />
+    <file path="$PROJECT_DIR$/../testftp/upload/bjiff3/js/loginBox.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396235651342" ignored="false" />
+    <file path="/loginBox.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396235646918" ignored="false" />
+    <file path="$USER_HOME$/site/tv/css/special/bjiff2014/css/sh_mov.css" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396247434197" ignored="false" />
+    <file path="$PROJECT_DIR$/../testftp/js/site/space/level/main.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396430863402" ignored="false" />
+    <file path="$PROJECT_DIR$/../testftp/js/site/search/tvplay/main.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396427941232" ignored="false" />
+    <file path="/main.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396427874532" ignored="false" />
+    <file path="$PROJECT_DIR$/../testftp/js/site/space/level/inc.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396236871251" ignored="false" />
+    <file path="$PROJECT_DIR$/../testftp/js/site/space/center/menu.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396491943874" ignored="false" />
+    <file path="$PROJECT_DIR$/../testftp/tv/html/space/level/level.html" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396237208129" ignored="false" />
+    <file path="/menu.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396410013315" ignored="false" />
+    <file path="$PROJECT_DIR$/../testftp/js/base/plugin/rss/rss.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396250567762" ignored="false" />
+    <file path="/rss.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396250556531" ignored="false" />
+    <file path="$PROJECT_DIR$/../testftp/upload/bjiff3/js/act_admin.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396251460592" ignored="false" />
+    <file path="/act_admin.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396251430355" ignored="false" />
+    <file path="$USER_HOME$/site/upload/bjiff3/js/act_upload.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396253029067" ignored="false" />
+    <file path="/turning.core.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396364031853" ignored="false" />
+    <file path="$PROJECT_DIR$/../testftp/tv/css/search/search-drama.css" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396420768677" ignored="false" />
+    <file path="/search-drama.css" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396420751097" ignored="false" />
+    <file path="$USER_HOME$/site/upload/bjiff3/js/reporter_page.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396421189145" ignored="false" />
+    <file path="/reporter_page.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396421189145" ignored="false" />
+    <file path="$USER_HOME$/site/upload/bjiff3/js/reporter_page2.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396421202399" ignored="false" />
+    <file path="/reporter_page2.js" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396421200378" ignored="false" />
+    <file path="$USER_HOME$/site/tv/css/search/v1/search.css" changelist="ea57bdb7-e9c2-4857-a482-d8679eba3441" time="1396423059318" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +62,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="turning.core.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/turning.core.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="18" column="63" selection-start="480" selection-end="480" vertical-scroll-proportion="0.3789308">
+              <folding>
+                <element signature="e#0#162#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,12 +93,15 @@
       <list>
         <option value="$PROJECT_DIR$/dialog/popup.ts" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/core/turing.js" />
+        <option value="$PROJECT_DIR$/core/turning.core.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="711" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -99,6 +129,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,13 +158,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dialog" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,8 +171,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -197,26 +227,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1280" height="711" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -282,15 +312,38 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dialog/popup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+        <state line="0" column="50" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="50" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialog/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/turning.core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="63" selection-start="480" selection-end="480" vertical-scroll-proportion="0.3789308">
+          <folding>
+            <element signature="e#0#162#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
