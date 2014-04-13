@@ -124,10 +124,10 @@ $(function(){
 
   }
   $('.main').click(function(e){
-      var x = Math.round((e.clientX-board.clientX)/60),
-          y  = Math.round((e.clientY-board.clientY)/60),
-          left = x*60 + board.clientX-15+ $(window).scrollLeft(),
-          top  = y*60 + board.clientY-15+ $(window).scrollTop(),
+      var x = Math.round((e.clientX-board.clientX + $(window).scrollLeft())/60),
+          y  = Math.round((e.clientY-board.clientY + $(window).scrollTop())/60),
+          left = x*60 + board.clientX-15,
+          top  = y*60 + board.clientY-15,
           idx = x+','+ y,
           cl   = 'blk';
           if(board.dropped[idx]){
