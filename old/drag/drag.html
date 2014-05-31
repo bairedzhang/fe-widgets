@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>drag</title>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <style>
+        *{margin:0;padding: 0;}
+        body{background: #444 url(http://sandbox.runjs.cn/uploads/rs/418/nkls38xx/carbon_fibre_big.png)}
+        .loginBox{cursor:pointer;width:420px;height:230px;padding:0 20px;border:1px solid #fff;left:100px;top:10px; color:#000;border-radius:8px;background: white;box-shadow:0 0 15px #222; background: -moz-linear-gradient(top, #fff, #efefef 8%);background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));font:11px/1.5em 'Microsoft YaHei' ;position: absolute;}
+        .loginBox h2{height:45px;font-size:20px;font-weight:normal;}
+        .loginBox .left{border-right:1px solid #ccc;height:209px;padding-right: 20px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <section class="loginBox row-fluid">
+        <div style="height:20px;"></div>
+        <section class="col-md-5 left">
+            <h2>商户登录</h2>
+            <p><input type="text" name="username" /></p>
+            <p><input type="text" name="password" /></p>
+            <section class="row-fluid">
+                <section class="span8 lh30"><label><input type="checkbox" name="rememberme" />下次自动登录</label></section>
+                <section class="span1"><input type="button" value=" 登录 " class="btn btn-primary"></section>
+            </section>
+        </section>
+        <section class="col-md-7 right">
+            <h2>没有帐户？</h2>
+            <section>
+                <p>这里有一段文字啊，很多的文字啊，太多太多的文字了，主要可以介绍介绍注册的好处和公司或者项目概况。。。</p>
+                <button>注册</button>
+            </section>
+        </section>
+    </section><!-- /loginBox -->
+</div> <!-- /container -->
+
+</body>
+</html>
