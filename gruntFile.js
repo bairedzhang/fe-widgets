@@ -86,9 +86,10 @@ module.exports = function ( grunt ) {
                     dir.forEach(function(file){
                         file = file.substring(0,file.indexOf('.'));
                         var build = 'build/'+file+'.min.js',
-                            src = 'src'+file+'.js';
+                            src = 'src/'+file+'.js';
                         o[build] = src;
                     });
+                    console.log(o);
                     return o;
                 }()
             }
@@ -116,6 +117,6 @@ module.exports = function ( grunt ) {
    // grunt.loadNpmTasks('grunt-contrib-watch');
 
     //注册任务
-    grunt.registerTask( 'default', ['uglify','jshint'] );
+    grunt.registerTask( 'default', ['uglify'] );
     //grunt.registerTask( 'default', ['cssmin'] );
 }
