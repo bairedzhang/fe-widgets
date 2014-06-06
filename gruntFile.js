@@ -86,7 +86,7 @@ module.exports = function ( grunt ) {
                     dir.forEach(function(file){
                         file = file.substring(0,file.indexOf('.'));
                         var build = 'build/'+file+'.min.js',
-                            src = 'src/'+file+'.js';
+                            src = 'src'+file+'.js';
                         o[build] = src;
                     });
                     return o;
@@ -110,12 +110,12 @@ module.exports = function ( grunt ) {
 
     grunt.loadNpmTasks('grunt-contrib-jshint')
     //载入concat和uglify插件，分别对于合并和压缩
-    grunt.loadNpmTasks('grunt-contrib-concat');
+  //  grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     //grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-watch');
+   // grunt.loadNpmTasks('grunt-contrib-watch');
 
     //注册任务
-    grunt.registerTask( 'default', ['concat', 'uglify','watch','jshint'] );
+    grunt.registerTask( 'default', ['uglify','jshint'] );
     //grunt.registerTask( 'default', ['cssmin'] );
 }

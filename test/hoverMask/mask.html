@@ -9,7 +9,7 @@
         ul{list-style: none;margin:0;padding:0;width:450px;margin:100px auto;}
         .example{width:150px;height:150px;position:absolute;left:150px;top:0;opacity: 0.5;background-color: grey;text-align: center;line-height: 150px;}
     </style>
-    <script type="text/javascript" src="../core/jquery.js"></script>
+    <script type="text/javascript" src="../../core/jquery.js"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -63,22 +63,9 @@
         </li>
     </ul>
 </div>
-<script src="js/mask.js"></script>
+<script src="../../src/hoverMask.js"></script>
 <script>
     var mask =new $.Mask({item:'ul li',mask:'.example',callback:function(){}})._init();
 </script>
-
-<p class="chk-intro">
-    验证方法<br>
-    1.下载sohutv_union.txt文件，并将其添加到您的网站根目录下。添加完成后点击【验证】按钮。<a class="chk-download" href="/promotion/downloadVerifyTxt.do">下载</a><br>
-    2.复制以下代码，并将其添加至您的网站首页源代码&lt;head&gt;&lt;\head&gt;。添加完成后点击【验证】按钮。
-    <input value="&lt;meta id=&quot;sohu_tv_union_verify&quot; content=&quot;xHes6_z-IjO36CQ4XQSwDLeJZRcvjuU_&quot;/&gt;" class="tc-txta chk-txta"> <a class="btn-reg chk-copy" href="#">复制</a>
-</p>
-<style>
-   chk-intro{margin: 20px 0px 0px 85px; padding: 20px; background:#eee;}
-   chk-copy{background: #eee; color:black; border: 1px solid #bbb;}
-   chk-download{color:red;}
-   chk-txta{width:600px;}
-</style>
 </body>
 </html>

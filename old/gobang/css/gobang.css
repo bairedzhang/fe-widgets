@@ -1,4 +1,0 @@
-.wrapper {width:600px;margin:0 auto;background: grey;padding:40px;}
-.main{width:600px;height: 600px;background: url("../img/gobang.png");}
-.main em.blk{width:30px;height:30px;background:black;position:absolute;z-index: 10;border-radius: 15px;cursor:no-drop;}
-.main em.wht{width:30px;height:30px;background:white;position:absolute;z-index: 10;border-radius: 15px;cursor:no-drop;}
