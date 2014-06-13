@@ -37,6 +37,7 @@ var ZW = ZW||{};
         autoinit: false,
         len: 5,
         total: 1,
+        trigger:false,
         showPreNext: false,
         //showStartEnd: false,
         nextText: '下一页',
@@ -44,10 +45,15 @@ var ZW = ZW||{};
     };
     Pagination.prototype = {
         config: {},
-        refresh: function (args) {
-            this.config = $.extend(this.config,args);
+        refresh: function (cur,trigger) {
+            //TODO 兼容传config模式
+            this.config = $.extend(this.config,{current:cur,trigger:trigger});
             this.makeHtml();
         },
+        go:function(page){
+            this.refresh(page,true);
+        },
+        elems:{},
         init: function () {
             var self = this;
             if (self.isInited || self.config.total <= 1) {
@@ -55,22 +61,20 @@ var ZW = ZW||{};
             }
             self.config.id = _helper.guid('Pagination');
             _helper.instance[self.config.id] = self;
+            self.elems.container =  $('#'+self.config.container);
             self.makeHtml();
             self.bind();
             self.isInited = true;
         },
         isInited: false,
-        elems: {},
         bind: function () {
             var self = this;
-            $('#'+self.config.container).on('click','[data-page]',function(){
+            self.elems.container.on('click','[data-page]',function(){
                 var page = $(this).attr('data-page');
                 if(page==self.config.current){
                     return;
                 }
-                self.refresh({current:page});
-                var fn = self.config.handler;
-                fn(page,this);
+                self.refresh(page,true);
             });
         },
         makeHtml:function(){
@@ -81,7 +85,7 @@ var ZW = ZW||{};
                 total = config.total,
                 template = config.template,
                 ellipsis = config.className.ellipsis,
-                showStartEnd = config.showStartEnd,
+              //  showStartEnd = config.showStartEnd,
                 showPreNext = config.showPreNext;
             var html = ['<div id="', config.id, '" class="',config.className.container,'">'];
             if(showPreNext){
@@ -119,7 +123,7 @@ var ZW = ZW||{};
                        for(var i =2;i<2+len;i++){
                            html.push(template.replace(/\{\{page\}\}/g,i));
                        }
-                       if(2+len<=total-1){
+                       if(len<=total-3){
                            html.push('<a href="javascript:;">'+ellipsis+'</a>');
                        }
                    }
@@ -151,6 +155,9 @@ var ZW = ZW||{};
                 }else if(config.current==1){
                     $('#'+config.id).find('.pre').addClass(pre_disable);
                 }
+            }
+            if(self.config.trigger){
+                self.config.handler(self.config.current);
             }
         },
         html: null

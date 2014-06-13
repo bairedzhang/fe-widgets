@@ -14,7 +14,7 @@
     var Mask = function(options) {
         $.extend(true, this._defaults, options);
         return this;
-    }
+    };
     Mask.prototype = {
         _defaults: {
             speed: 'fast'
@@ -136,8 +136,8 @@
 
             })
         }
-    }
+    };
     $.extend({
         Mask: Mask
     });
-})(jQuery, window)
+})(jQuery, window);
