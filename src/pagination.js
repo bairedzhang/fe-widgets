@@ -46,9 +46,12 @@ var ZW = ZW||{};
     Pagination.prototype = {
         config: {},
         refresh: function (cur,trigger) {
-            //TODO 兼容传config模式
-            this.config = $.extend(this.config,{current:cur,trigger:trigger});
+            if(arguments.length==1&&typeof arguments[0]=='object'){
+                this.config = $.extend(this.config,arguments[0]);
+            }else if(arguments.length ==2){
+                this.config = $.extend(this.config,{current:cur,trigger:trigger});
             this.makeHtml();
+            }
         },
         go:function(page){
             this.refresh(page,true);
